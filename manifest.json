@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Numerade Bypasser",
+  "description": "Bypasses Numerade paywall",
+  "author": "Shubham Bhatnagar",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.numerade.com/*"
+      ],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "16": "16x16_logo.png",
+    "32": "32x32_logo.png",
+    "48": "48x48_logo.png",
+    "128": "128x128_logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "permissions": [
+    "tabs"
+  ]
+}
