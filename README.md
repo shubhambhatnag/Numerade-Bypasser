@@ -4,7 +4,7 @@ Chrome extension that allows any Numerade video to be viewed for free
 # Installation
 
 Download and unzip the Numerade-Bypasser folder.<br><br>
-Then, navigate to chrome://extensions/, select the "Load unpacked" button and select the unzipped folder.<br><br>
+Then, navigate to [the Chrome extension menu](chrome://extensions/), select the "Load unpacked" button and select the unzipped folder.<br><br>
 Pin the extension.
 
 
