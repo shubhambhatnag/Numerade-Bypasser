@@ -1,4 +1,4 @@
-# Numerade-Bypasser
+# Numerade Bypasser
 Chrome extension that allows any Numerade video to be viewed for free
 
 # Usage
