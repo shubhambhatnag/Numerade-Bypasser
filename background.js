@@ -8,18 +8,12 @@ chrome.action.onClicked.addListener(tab => {
     const url = new URL(siteURL);
     var host = url.host;
     if (host == "www.numerade.com") {
-      console.log("base site")
       chrome.tabs.sendMessage(tab.id, {
       type: "numerade",
       qURL: url,
     });  
     
     }
-
-    if (host == "cdn.numerade.com") {
-      console.log("cdn site")
-    }
-    
 
     
   });  
